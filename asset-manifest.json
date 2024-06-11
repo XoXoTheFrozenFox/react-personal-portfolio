@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-personal-portfolio/static/css/main.73120494.css",
-    "main.js": "/react-personal-portfolio/static/js/main.2e09bc56.js",
+    "main.js": "/react-personal-portfolio/static/js/main.7155cf8b.js",
     "static/js/787.fb771931.chunk.js": "/react-personal-portfolio/static/js/787.fb771931.chunk.js",
     "static/media/color-sharp.png": "/react-personal-portfolio/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/react-personal-portfolio/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
@@ -14,7 +14,7 @@
     "static/media/CentraNo2-Book.ttf": "/react-personal-portfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
     "static/media/footer-bg.png": "/react-personal-portfolio/static/media/footer-bg.7bd67c0f73571d0acc02.png",
     "static/media/proj3.jpg": "/react-personal-portfolio/static/media/proj3.0d2584fee1e1b1618f4b.jpg",
-    "static/media/contact-img.svg": "/react-personal-portfolio/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
+    "static/media/contact-img.svg": "/react-personal-portfolio/static/media/contact-img.dcb68f32a0717c6056929f78958accd2.svg",
     "static/media/revicons.eot": "/react-personal-portfolio/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/react-personal-portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/react-personal-portfolio/static/media/revicons.e8746a624ed098489406.woff",
@@ -32,11 +32,11 @@
     "static/media/arrow1.svg": "/react-personal-portfolio/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
     "static/media/nav-icon2.svg": "/react-personal-portfolio/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
     "main.73120494.css.map": "/react-personal-portfolio/static/css/main.73120494.css.map",
-    "main.2e09bc56.js.map": "/react-personal-portfolio/static/js/main.2e09bc56.js.map",
+    "main.7155cf8b.js.map": "/react-personal-portfolio/static/js/main.7155cf8b.js.map",
     "787.fb771931.chunk.js.map": "/react-personal-portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.73120494.css",
-    "static/js/main.2e09bc56.js"
+    "static/js/main.7155cf8b.js"
   ]
 }

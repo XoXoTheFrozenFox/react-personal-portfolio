@@ -1,8 +1,8 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg1 from "../assets/img/proj1.jpg";
+import projImg2 from "../assets/img/proj2.jpg";
+import projImg3 from "../assets/img/proj3.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -11,33 +11,33 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "C# API",
+      description: "Created a RESTful api using C#, dotnet-ef, Azure, Github Actions(CI-CD pipeline), .NET core and tested the endpoints with postman.",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "CV",
+      description: "Created a CV using HTML, CSS, and JavaScript and hosted the CV using GitHub Pages.",
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Fruit AI app",
+      description: "Developed an AI model to distinguish between fresh and rotten apples, bananas, and oranges. Utilized Python, Jupyter Notebooks, and Google Colab for training and integrated the model into a mobile app with the Kivy Python framework.",
       imgUrl: projImg3,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "FITS web-app",
+      description: "A Flask web app with a UI for uploading FITS files and interacting via API for operations like open, read, write, append, rename, and delete.",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Cryptography",
+      description: "Developed a C# app with encryption/decryption functions for RSA, Caesar, Vigenère, Transposition, and a hybrid RSA-AES cipher, balancing security and speed.",
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "UI-path project",
+      description: "This project automated CRUD operations on a website using UIpath. Each operation was marked as ”PASSED” if executed correctly and ”FAILED” if executed incorrectly.",
       imgUrl: projImg3,
     },
   ];
@@ -51,7 +51,7 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p>All the code is available on GitHub.</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
@@ -79,11 +79,24 @@ export const Projects = () => {
                         }
                       </Row>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="section">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                    <Tab.Pane eventKey="second">
+                      <p>All of these projects except the CV were done as part of my coursework for my degrees (BSc. IT and BSc. Hons Computer Science and Information Technology).</p>
+                      <p>&nbsp;</p>
+                      <p>&nbsp;</p>
+                      <p>&nbsp;</p>
+                      <p>&nbsp;</p>
+                      <p>&nbsp;</p>
+                      <p>&nbsp;</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <p>Their are more projects that can be found on my GitHub! My CV can be found at the top right of the portfolio.</p>
+                      <p>&nbsp;</p>
+                      <p>&nbsp;</p>
+                      <p>&nbsp;</p>
+                      <p>&nbsp;</p>
+                      <p>&nbsp;</p>
+                      <p>&nbsp;</p>
+                      <p>&nbsp;</p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>

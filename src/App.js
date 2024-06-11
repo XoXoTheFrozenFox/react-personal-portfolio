@@ -15,8 +15,11 @@ function App() {
       <Banner />
       <Skills />
       <Projects />
-      <Contact />
-      <Footer />
+      {/* <Contact /> */}
+      
+
+      {/* <Footer /> */}
+      
     </div>
   );
 }

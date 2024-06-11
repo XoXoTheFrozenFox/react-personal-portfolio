@@ -81,22 +81,9 @@ export const Projects = () => {
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
                       <p>All of these projects except the CV were done as part of my coursework for my degrees (BSc. IT and BSc. Hons Computer Science and Information Technology).</p>
-                      <p>&nbsp;</p>
-                      <p>&nbsp;</p>
-                      <p>&nbsp;</p>
-                      <p>&nbsp;</p>
-                      <p>&nbsp;</p>
-                      <p>&nbsp;</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
                       <p>Their are more projects that can be found on my GitHub! My CV can be found at the top right of the portfolio.</p>
-                      <p>&nbsp;</p>
-                      <p>&nbsp;</p>
-                      <p>&nbsp;</p>
-                      <p>&nbsp;</p>
-                      <p>&nbsp;</p>
-                      <p>&nbsp;</p>
-                      <p>&nbsp;</p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>

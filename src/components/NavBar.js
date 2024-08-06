@@ -6,7 +6,6 @@ import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/github.svg';
 import navIcon3 from '../assets/img/iconmonstr-script-5.svg';
 import navIcon4 from '../assets/img/iconmonstr-script-6.svg';
-import { HashLink } from 'react-router-hash-link';
 import {
   BrowserRouter as Router
 } from "react-router-dom";
@@ -56,7 +55,7 @@ export const NavBar = () => {
                 <a href="https://www.linkedin.com/in/bernard-swanepoel-a2777322b/"><img src={navIcon1} alt="" /></a>
                 <a href="https://github.com/XoXoTheFrozenFox"><img src={navIcon2} alt="" /></a>
                 <a href="https://xoxothefrozenfox.github.io/BernardSwanepoelCV/Index.html"><img src={navIcon4} alt="" /></a>
-                <a href="/files/Bernard_Swanepoel_Resume.pdf" download="Bernard_Swanepoel_Resume.pdf"><img src={navIcon3} alt="" /></a>
+                <a href="../files/Bernard_Swanepoel_Resume.pdf" download="Bernard_Swanepoel_Resume.pdf"><img src={navIcon3} alt="" /></a>
               </div>
             </span>
           </Navbar.Collapse>

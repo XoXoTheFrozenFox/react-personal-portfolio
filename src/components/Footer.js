@@ -9,7 +9,7 @@ export const Footer = () => {
     <footer className="footer">
       <Container>
         <Row className="align-items-center">
-          <Col size={12} sm={6}>
+          <Col size={12} sm={5}>
             <img src={logo} alt="Logo" />
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
@@ -19,7 +19,7 @@ export const Footer = () => {
                 <a href="https://xoxothefrozenfox.github.io/BernardSwanepoelCV/Index.html"><img src={navIcon4} alt="" /></a>
                 <a href="https://github.com/XoXoTheFrozenFox/react-personal-portfolio/blob/master/public/files/Bernard_Swanepoel_Resume.pdf"><img src={navIcon3} alt="" /></a>
             </div>
-            <p>👽👾🚀</p>
+            <p></p>
           </Col>
         </Row>
       </Container>

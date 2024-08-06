@@ -98,7 +98,7 @@ export const Projects = () => {
                       <p>I have a wide variety of interests when it comes to programming. App development, web development, AI, cloud, and cybersecurity are some of them. Currently, I am keen on exploring the Arduino and Raspberry Pi ecosystems. At the end of my coding career, I know I won't know everything, but at least I want to be able to say that I almost had one project in each discipline of computer science 😃</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>There are more projects that can be found on my GitHub! My CV can be found at the top right of the portfolio. There are options for downloading a LaTeX variant and viewing a web version.</p>
+                      <p>There are more projects that can be found on my GitHub! My CV can be found at the top right of the portfolio. There are options for viewing a web version and a LaTeX verion.</p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>

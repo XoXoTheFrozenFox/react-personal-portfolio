@@ -17,7 +17,7 @@ export const Footer = () => {
                 <a href="https://www.linkedin.com/in/bernard-swanepoel-a2777322b/"><img src={navIcon1} alt="" /></a>
                 <a href="https://github.com/XoXoTheFrozenFox"><img src={navIcon2} alt="" /></a>
                 <a href="https://xoxothefrozenfox.github.io/BernardSwanepoelCV/Index.html"><img src={navIcon4} alt="" /></a>
-                <a href="/Bernard_Swanepoel_Resume.pdf" download="Bernard_Swanepoel_Resume.pdf"><img src={navIcon3} alt="" /></a>
+                <a href="/files/Bernard_Swanepoel_Resume.pdf" download="Bernard_Swanepoel_Resume.pdf"><img src={navIcon3} alt="" /></a>
             </div>
             <p>👽👾🚀</p>
           </Col>

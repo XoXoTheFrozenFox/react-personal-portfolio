@@ -42,7 +42,7 @@ export const Projects = () => {
     },
     {
       title: "Discord bot",
-      description: "A bot I built for fun includes various entertaining commands, such as searching for random images, GIFs, and interacting with ChatGPT via an API. I build this project using JavaScript, Node.js, discord.js, NPM and GitHub.",
+      description: "A bot I built for fun which includes various entertaining commands, such as searching for random images, GIFs, and interacting with ChatGPT via an API. I build this project using JavaScript, Node.js, discord.js, NPM and GitHub.",
       imgUrl: projImg1,
     },
     {

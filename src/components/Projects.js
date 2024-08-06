@@ -40,6 +40,21 @@ export const Projects = () => {
       description: "This project automated CRUD operations on a website using UIpath. Each operation was marked as ”PASSED” if executed correctly and ”FAILED” if executed incorrectly.",
       imgUrl: projImg3,
     },
+    {
+      title: "Discord bot",
+      description: "A bot I built for fun includes various entertaining commands, such as searching for random images, GIFs, and interacting with ChatGPT via an API. I build this project using JavaScript, Node.js, discord.js, NPM and GitHub.",
+      imgUrl: projImg1,
+    },
+    {
+      title: "Dog breed classification",
+      description: "Used TensorFlow, Jupyter Notebooks, and Python to create a deep learning model that can classify dog breeds.",
+      imgUrl: projImg2,
+    },
+    {
+      title: "Retro Pi",
+      description: "Created a RetroPie gaming setup with a Raspberry Pi 4 and a CRT TV. Learned Linux, RetroPie, and SSH.",
+      imgUrl: projImg3,
+    },
   ];
 
   return (
@@ -55,13 +70,13 @@ export const Projects = () => {
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
-                      <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                      <Nav.Link eventKey="first">Project descriptions</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                      <Nav.Link eventKey="second">Project interests</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                      <Nav.Link eventKey="third">More projects</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
@@ -80,10 +95,10 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
-                      <p>All of these projects except the CV were done as part of my coursework for my degrees (BSc. IT and BSc. Hons Computer Science and Information Technology).</p>
+                      <p>I have a wide variety of interests when it comes to programming. App development, web development, AI, cloud, and cybersecurity are some of them. Currently, I am keen on exploring the Arduino and Raspberry Pi ecosystems. At the end of my coding career, I know I won't know everything, but at least I want to be able to say that I almost had one project in each discipline of computer science 😃</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>Their are more projects that can be found on my GitHub! My CV can be found at the top right of the portfolio.</p>
+                      <p>There are more projects that can be found on my GitHub! My CV can be found at the top right of the portfolio. There are options for downloading a LaTeX variant and viewing a web version.</p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>

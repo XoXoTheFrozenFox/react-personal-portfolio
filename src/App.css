@@ -606,16 +606,45 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   border-radius: 18px;
 }
+/************ Footer Css ************/
+.footer {
+  padding: 0 0 50px 0;
+  background-image: url('./assets/img/footer-bg.png');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center; /* Center text and child elements */
+}
+
 .footer img {
-  width: 26%;
+  width: 26%; /* Adjust the size of the footer logo if needed */
 }
-.footer p {
-  font-weight: 400;
-  font-size: 14px;
-  color: #B8B8B8;
-  letter-spacing: 0.5px;
-  margin-top: 20px;
-}
+
+/* Social icons container */
 .footer .social-icon {
-  margin-top: 20px; /* Adjust the value as needed */
+  display: flex;
+  justify-content: center; /* Center the icons horizontally */
+  align-items: center; /* Align items vertically in the center */
+  flex-wrap: nowrap; /* Prevent wrapping of icons */
+  margin-top: 20px; /* Space above social icons */
+}
+
+.footer .social-icon a {
+  display: inline-flex;
+  width: 42px;
+  height: 42px;
+  background: rgba(217, 217, 217, 0.1);
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Media query for screens smaller than 575px */
+@media (max-width: 575px) {
+  .footer .social-icon {
+    /* Ensure horizontal alignment with a flex container */
+    justify-content: center; /* Center the icons horizontally */
+  }
 }

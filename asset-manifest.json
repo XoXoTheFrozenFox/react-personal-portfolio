@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-personal-portfolio/static/css/main.c317d17b.css",
-    "main.js": "/react-personal-portfolio/static/js/main.110cdd39.js",
+    "main.css": "/react-personal-portfolio/static/css/main.d23b3ad0.css",
+    "main.js": "/react-personal-portfolio/static/js/main.739851e8.js",
     "static/js/787.fb771931.chunk.js": "/react-personal-portfolio/static/js/787.fb771931.chunk.js",
     "static/media/color-sharp.png": "/react-personal-portfolio/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/react-personal-portfolio/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
@@ -13,10 +13,13 @@
     "static/media/CentraNo2-Medium.ttf": "/react-personal-portfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/react-personal-portfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
     "static/media/footer-bg.png": "/react-personal-portfolio/static/media/footer-bg.7bd67c0f73571d0acc02.png",
+    "static/media/Golden_Key_Logo.png": "/react-personal-portfolio/static/media/Golden_Key_Logo.55ec8fd26d3956716643.png",
     "static/media/proj3.jpg": "/react-personal-portfolio/static/media/proj3.0d2584fee1e1b1618f4b.jpg",
+    "static/media/Spring.png": "/react-personal-portfolio/static/media/Spring.20c30e27b11bbae88df1.png",
     "static/media/contact-img.svg": "/react-personal-portfolio/static/media/contact-img.dcb68f32a0717c6056929f78958accd2.svg",
     "static/media/revicons.eot": "/react-personal-portfolio/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/react-personal-portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/NWU.png": "/react-personal-portfolio/static/media/NWU.cff2cdc28a834c2d5c5e.png",
     "static/media/revicons.woff": "/react-personal-portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "static/media/space.svg": "/react-personal-portfolio/static/media/space.3af177911262ab02cb4c53300a0943ec.svg",
     "static/media/alien-2-svgrepo-com.svg": "/react-personal-portfolio/static/media/alien-2-svgrepo-com.1ed8b5ac8deebb12032f622de00300ba.svg",
@@ -31,12 +34,12 @@
     "static/media/nav-icon1.svg": "/react-personal-portfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "static/media/arrow2.svg": "/react-personal-portfolio/static/media/arrow2.3d9522b6fd8f2464b7200ebf2c1bb09a.svg",
     "static/media/arrow1.svg": "/react-personal-portfolio/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
-    "main.c317d17b.css.map": "/react-personal-portfolio/static/css/main.c317d17b.css.map",
-    "main.110cdd39.js.map": "/react-personal-portfolio/static/js/main.110cdd39.js.map",
+    "main.d23b3ad0.css.map": "/react-personal-portfolio/static/css/main.d23b3ad0.css.map",
+    "main.739851e8.js.map": "/react-personal-portfolio/static/js/main.739851e8.js.map",
     "787.fb771931.chunk.js.map": "/react-personal-portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c317d17b.css",
-    "static/js/main.110cdd39.js"
+    "static/css/main.d23b3ad0.css",
+    "static/js/main.739851e8.js"
   ]
 }

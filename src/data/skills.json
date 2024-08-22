@@ -1,0 +1,34 @@
+[
+  {
+    "title": "React",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "title": "Node",
+    "imageSrc": "skills/node.png"
+  },
+  {
+    "title": "Firebase",
+    "imageSrc": "skills/firebase.png"
+  },
+  {
+    "title": "Kotlin",
+    "imageSrc": "skills/Kotlin.png"
+  },
+  {
+    "title": "Tensorflow",
+    "imageSrc": "skills/Tensorflow.png"
+  },
+  {
+    "title": "Raspberry Pi",
+    "imageSrc": "skills/RaspberryPi.png"
+  },
+  {
+    "title": "Azure",
+    "imageSrc": "skills/azure.png"
+  },
+  {
+      "title": "Spring Boot",
+    "imageSrc": "skills/Spring.png"
+  }
+]

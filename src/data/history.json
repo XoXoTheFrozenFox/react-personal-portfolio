@@ -1,0 +1,26 @@
+[
+  {
+    "role": "Marketing staff",
+    "organisation": "Nuwelco",
+    "startDate": "Sep, 2023",
+    "endDate": "Present",
+    "experiences": ["Assisting Nuwelco in marketing their products and services on their business pages."],
+    "imageSrc": "history/Nuwelco.jpg"
+  },
+  {
+    "role": "Tutor",
+    "organisation": "NWU",
+    "startDate": "Feb, 2023",
+    "endDate": "Jun, 2023",
+    "experiences": ["I helped grade practical assignments and conducted tutoring sessions to support individuals facing challenges with the given programming practicals."],
+    "imageSrc": "history/NWU.png"
+  },
+  {
+    "role": "Golden key member",
+    "organisation": "Golden key honour society",
+    "startDate": "Apr, 2023",
+    "endDate": "present",
+    "experiences": ["Achieved top 15% of my class."],
+    "imageSrc": "history/Golden_Key_Logo.png"
+  }
+]

@@ -366,7 +366,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
   .banner h1 {
     font-size: 2rem; /* Smaller font size for mobile */
-    min-height: 10rem; /* Adjust min-height for mobile to reduce space */
+    min-height: 7rem; /* Adjust min-height for mobile to reduce space */
   }
 
   .banner p {

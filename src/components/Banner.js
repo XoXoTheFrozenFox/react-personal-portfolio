@@ -46,7 +46,7 @@ export const Banner = () => {
     } else {
       setIndex(prevIndex => prevIndex + 1);
     }
-  }
+  };
 
   const scrollToContact = () => {
     const contactSection = document.getElementById('connect');
@@ -85,5 +85,5 @@ export const Banner = () => {
         </Row>
       </Container>
     </section>
-  )
-}
+  );
+};

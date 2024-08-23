@@ -12,7 +12,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Computer Scientist", "Developer", "Software Engineer" ];
+  const toRotate = ["Computer Scientist", "Developer", "Software Engineer"];
   const period = 2000;
 
   useEffect(() => {
@@ -21,7 +21,7 @@ export const Banner = () => {
     }, delta);
 
     return () => { clearInterval(ticker) };
-  }, [text])
+  }, [text]);
 
   const tick = () => {
     let i = loopNum % toRotate.length;
@@ -48,25 +48,37 @@ export const Banner = () => {
     }
   }
 
+  const scrollToContact = () => {
+    const contactSection = document.getElementById('connect');
+    if (contactSection) {
+      contactSection.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+        inline: 'nearest'
+      });
+    }
+  };
+
   return (
     <section className="banner" id="home">
       <Container>
-        <Row className="aligh-items-center">
+        <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
               {({ isVisible }) =>
-              <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="tagline">Welcome to space!</span>
-                <h1>{`Hi💫, my name is`} {`Bernard Swanepoel`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Computer Scientist", "Developer", "Software Engineer" ]'><span className="wrap">{text}</span></span></h1>
+                <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+                  <span className="tagline">Welcome to space!</span>
+                  <h1>{`Hi💫, my name is`} {`Bernard Swanepoel`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Computer Scientist", "Developer", "Software Engineer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>I love working in any software-related field. I work well as a solo developer but excel when working with teams! My main hobbies include music, building computers, and 3D-printing.</p>
-              </div>}
+                  <button onClick={scrollToContact}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                </div>}
             </TrackVisibility>
           </Col>
           <Col xs={12} md={6} xl={5}>
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img src={headerImg} alt="Header Img"/>
+                  <img src={headerImg} alt="Header Img" />
                 </div>}
             </TrackVisibility>
           </Col>

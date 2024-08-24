@@ -41,14 +41,14 @@ export const Projects = () => {
       imgUrl: projImg3,
     },
     {
-      title: "Discord bot",
-      description: "A bot I built for fun which includes various entertaining commands, such as searching for random images, GIFs, and interacting with ChatGPT via an API. I build this project using JavaScript, Node.js, discord.js, NPM and GitHub.",
-      imgUrl: projImg1,
-    },
-    {
       title: "Dog breed classification",
       description: "Used TensorFlow, Jupyter Notebooks, and Python to create a deep learning model that can classify dog breeds.",
       imgUrl: projImg2,
+    },
+    {
+      title: "Discord bot",
+      description: "A bot I built for fun which includes various entertaining commands, such as searching for random images, GIFs, and interacting with ChatGPT via an API. I build this project using JavaScript, Node.js, discord.js, NPM and GitHub.",
+      imgUrl: projImg1,
     },
     {
       title: "Retro Pi",
@@ -66,7 +66,7 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
-                <p>All the code is available on GitHub.</p>
+                <p>All code is available on GitHub (if the repo is public 👽).</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>

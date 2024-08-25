@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-personal-portfolio/static/css/main.2900fca9.css",
-    "main.js": "/react-personal-portfolio/static/js/main.447e28fb.js",
+    "main.css": "/react-personal-portfolio/static/css/main.3e120531.css",
+    "main.js": "/react-personal-portfolio/static/js/main.9a10a433.js",
     "static/js/787.fb771931.chunk.js": "/react-personal-portfolio/static/js/787.fb771931.chunk.js",
     "static/media/color-sharp.png": "/react-personal-portfolio/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/react-personal-portfolio/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
@@ -28,19 +28,18 @@
     "static/media/meter1.svg": "/react-personal-portfolio/static/media/meter1.c4085ff859afbd8488e9da47d4953850.svg",
     "static/media/meter3.svg": "/react-personal-portfolio/static/media/meter3.2201f7e4df22bc4b08180210474f28cc.svg",
     "static/media/iconmonstr-script-5.svg": "/react-personal-portfolio/static/media/iconmonstr-script-5.e0d5031e75880a811c97367e56040c1c.svg",
-    "static/media/logo.svg": "/react-personal-portfolio/static/media/logo.eaf3c0bc058e0ed6471ba20dc0af6da2.svg",
     "static/media/iconmonstr-script-6.svg": "/react-personal-portfolio/static/media/iconmonstr-script-6.399068e2b619acfd3da5fd52a659bc88.svg",
     "index.html": "/react-personal-portfolio/index.html",
     "static/media/github.svg": "/react-personal-portfolio/static/media/github.f28350fefce6be5835ddf713b74f9e41.svg",
     "static/media/nav-icon1.svg": "/react-personal-portfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "static/media/arrow2.svg": "/react-personal-portfolio/static/media/arrow2.3d9522b6fd8f2464b7200ebf2c1bb09a.svg",
     "static/media/arrow1.svg": "/react-personal-portfolio/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
-    "main.2900fca9.css.map": "/react-personal-portfolio/static/css/main.2900fca9.css.map",
-    "main.447e28fb.js.map": "/react-personal-portfolio/static/js/main.447e28fb.js.map",
+    "main.3e120531.css.map": "/react-personal-portfolio/static/css/main.3e120531.css.map",
+    "main.9a10a433.js.map": "/react-personal-portfolio/static/js/main.9a10a433.js.map",
     "787.fb771931.chunk.js.map": "/react-personal-portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2900fca9.css",
-    "static/js/main.447e28fb.js"
+    "static/css/main.3e120531.css",
+    "static/js/main.9a10a433.js"
   ]
 }

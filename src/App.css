@@ -88,7 +88,7 @@ nav.navbar {
   width: 100%;
   top: 0;
   z-index: 9999;
-  transition: 0.32s ease-in-out;
+  transition: background-color 0.32s ease-in-out, padding 0.32s ease-in-out;
   background-color: transparent; /* Default transparent background */
 }
 
@@ -97,10 +97,12 @@ nav.navbar.scrolled {
   background-color: #121212; /* Solid background color when scrolled */
 }
 
+/* Navbar Brand */
 nav.navbar a.navbar-brand {
   width: 9%;
 }
 
+/* Navbar Links */
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
   color: #fff !important;
@@ -115,6 +117,7 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
   opacity: 1;
 }
 
+/* Social Icons */
 span.navbar-text {
   display: flex;
   align-items: center;
@@ -164,6 +167,7 @@ span.navbar-text {
   filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
 }
 
+/* Button Styles */
 .navbar-text button {
   font-weight: 700;
   color: #fff;
@@ -203,6 +207,7 @@ span.navbar-text {
   position: absolute;
 }
 
+/* Navbar Toggler */
 nav.navbar .navbar-toggler:active,
 nav.navbar .navbar-toggler:focus {
   outline: none;
@@ -256,10 +261,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-color: transparent;
 }
 
-@media (max-width: 768px) {
+/* Mobile Specific Styles */
+@media (max-width: 575) {
   nav.navbar {
-    background-color: #121212; /* Solid background color for mobile */
     opacity: 1; /* Ensure opacity is 1 on mobile view */
+  }
+  
+  nav.navbar.navbar-toggler[aria-expanded="true"] {
+    background-color: #121212; /* Solid background color when mobile menu is open */
   }
   
   /* Ensure opacity is maintained when navbar is open */

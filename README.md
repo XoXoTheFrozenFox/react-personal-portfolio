@@ -12,6 +12,6 @@ https://xoxothefrozenfox.github.io/react-personal-portfolio/
 <h2 align="center">⚒️ Technologies used ⚒️</h2>
 <br/>
 <div align="center">
-    <img src="https://skillicons.dev/icons?i=github,html,css,javascript,react" />   
+    <img src="https://skillicons.dev/icons?i=github,html,css,javascript,react,npm" />   
 </div>
 

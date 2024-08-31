@@ -43,7 +43,7 @@ export const NavBar = () => {
         expanded={navExpanded}
       >
         <Container>
-          <Navbar.Brand href="/">
+          <Navbar.Brand href="https://xoxothefrozenfox.github.io/react-personal-portfolio/">
             <img src={space} alt="space" />
           </Navbar.Brand>
           <Navbar.Toggle 

@@ -21,7 +21,7 @@ export const Footer = () => {
                 <a href="https://github.com/XoXoTheFrozenFox">
                   <img src={navIcon2} alt="GitHub" />
                 </a>
-                <a href="https://xoxothefrozenfox.github.io/BernardSwanepoelCV/Index.html">
+                <a href="https://xoxothefrozenfox.github.io/BernardSwanepoelCV/">
                   <img src={navIcon4} alt="Portfolio" />
                 </a>
                 <a href="https://github.com/XoXoTheFrozenFox/react-personal-portfolio/blob/master/public/files/Bernard_Swanepoel_Resume.pdf">

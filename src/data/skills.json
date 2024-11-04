@@ -24,8 +24,8 @@
     "imageSrc": "skills/RaspberryPi.png"
   },
   {
-    "title": "Azure",
-    "imageSrc": "skills/azure.png"
+    "title": "Amazon Web Services (AWS)",
+    "imageSrc": "skills/aws-icon.png"
   },
   {
       "title": "Spring Boot",

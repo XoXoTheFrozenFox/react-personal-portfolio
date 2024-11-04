@@ -15,7 +15,7 @@ import PiImage from "../assets/skills/RaspberryPi.png";
 import TensorflowImage from "../assets/skills/Tensorflow.png";
 import KotlinImage from "../assets/skills/Kotlin.png";
 import PytorchImage from "../assets/skills/Pytorch.png";
-import AzureImage from "../assets/skills/azure.png";
+import AWSImage from "../assets/skills/aws-icon.png";
 import SpringImage from "../assets/skills/Spring.png";  // Added this to match previous code
 
 import googleImage from "../assets/history/google.png";
@@ -39,7 +39,7 @@ const skillImageMap = {
   'skills/Tensorflow.png': TensorflowImage,
   'skills/Kotlin.png': KotlinImage,
   'skills/PyTorchImage.png': PytorchImage,
-  'skills/azure.png': AzureImage,
+  'skills/aws-icon.png': AWSImage,
   'skills/Spring.png': SpringImage, // Added to match previous code
 };
 
